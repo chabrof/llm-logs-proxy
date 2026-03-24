@@ -17,7 +17,7 @@ A minimal, transparent proxy for LLM APIs (Ollama / OpenAI-compatible) with real
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-repo/llm-logs-proxy.git
+git clone https://github.com/chabrof/llm-logs-proxy.git
 cd llm-logs-proxy
 npm install
 ```
