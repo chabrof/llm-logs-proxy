@@ -1,0 +1,19 @@
+{
+  "name": "llm-logs-proxy",
+  "version": "0.3.0",
+  "description": "A minimal, transparent proxy for LLM APIs (Ollama / OpenAI-compatible) with real-time logging and structured parsing of reasoning and content streams.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {},
+  "keywords": [
+    "llm",
+    "logs",
+    "proxy",
+    "ollama"
+  ],
+  "author": "François CHABROU",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
