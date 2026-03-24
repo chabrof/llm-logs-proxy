@@ -144,7 +144,8 @@ This tool is intended **for educational, learning, and research purposes only**.
 
 ## 🛠️ Compatible With
 
-* OpenCode
+* OpenCode (tested)
+* VSCode copilot
 * Continue.dev
 * Any OpenAI-compatible client (best-effort)
 
