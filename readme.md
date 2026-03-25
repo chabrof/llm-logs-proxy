@@ -145,6 +145,7 @@ This tool is intended **for educational, learning, and research purposes only**.
 ## 🛠️ Compatible With
 
 * OpenCode
+* VSCode Copilot
 * Continue.dev
 * Any OpenAI-compatible client (best-effort)
 
@@ -176,4 +177,6 @@ Feel free to open issues or submit PRs!
 
 This tool was built to better understand how LLMs behave under real-world agent frameworks, especially with streaming, reasoning, and multi-request workflows.
 
----
+**✅ Tested with:**
+- OpenCode + Ollama (Qwen models)
+- GitHub Copilot in VSCode

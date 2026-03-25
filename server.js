@@ -82,7 +82,6 @@ app.use(async (req, res) => {
 
           const json = JSON.parse(jsonStr)
           const delta = json?.choices?.[0]?.delta
-
           const reasoning = delta?.reasoning
           const content = delta?.content
 
@@ -135,7 +134,7 @@ app.use(async (req, res) => {
           // ===== OTHER =====
           flushReasoning()
           flushContent()
-          log(line)
+          log(line + "\n")
           return
         }
       } catch (e) {
@@ -187,7 +186,6 @@ app.use(async (req, res) => {
 
         let lines = sseBuffer.split("\n")
 
-        // garder la dernière ligne incomplète
         sseBuffer = lines.pop()
 
         for (const line of lines) {
